@@ -1,5 +1,6 @@
 .card {
   background-color: var(--light-gray);
+  /* border-left: var(--primary-color) 6px solid; */
   border-bottom: var(--primary-color) 6px solid;
   border-radius: 8px;
   overflow: hidden;

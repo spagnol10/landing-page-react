@@ -1,29 +1,38 @@
 import '../../styles/soluction.css'
-import Feirafacil from "../../assets/logo-feira-light.svg"
+import Mob from '../../assets/images/mob.png'
+import Web from '../../assets/images/web.png'
+import MobileAndWeb from '../../assets/images/mobileAndWeb.png'
+
 import Card from "../card/Card"
 
-export function Soluction() {
+interface HeroSectionProps {
+  title: string;
+  description: string;
+}
+
+export function Soluction({ title, description }: HeroSectionProps) {
   return (
-    <section >
+    <section id='section'>
       <div className='text'>
-        <h1>Sob Medida</h1>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        <p></p>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
       <div className='cards'>
         <Card
-          title="What is Lorem Ipsum?"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-          imageUrl={Feirafacil} />
+          title="Mobile Solution"
+          description="Customized solutions for mobile platforms."
+          imageUrl={Mob} 
+        />
         <Card
-          title="What is Lorem Ipsum?"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-          imageUrl={Feirafacil} />
+          title="Web Solution"
+          description="High-performance and scalable web solutions."
+          imageUrl={Web} 
+        />
         <Card
-          title="What is Lorem Ipsum?"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-          imageUrl={Feirafacil} />
-
+          title="Mobile and Web Solution"
+          description="Integrated solutions for both web and mobile."
+          imageUrl={MobileAndWeb} 
+        />
       </div>
     </section>
   )

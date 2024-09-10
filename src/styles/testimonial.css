@@ -1,0 +1,27 @@
+#testimonial {
+  background: var(--secondary-color);
+  border-top: 0.125rem solid var(--light-gray);
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testimonial p {
+  font-weight: var(--fw-base);
+  color: var(--second-text-color);
+}
+
+#testimonial .content>div {
+  width: fit-content;
+  align-self: center;
+  margin-bottom: 20%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+}

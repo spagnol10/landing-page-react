@@ -1,8 +1,8 @@
-import Button from "../Button";
+import "../../styles/hero.css";
 import HeroRectangleOne from "../../assets/images/rectangle-right-top.png";
 import HeroRectangleTwo from "../../assets/images/rectangle-left-top.png";
-import "../../styles/hero.css";
 import Container from "../Container";
+import Button from "../Button";
 
 interface HeroSectionProps {
     title: string;
