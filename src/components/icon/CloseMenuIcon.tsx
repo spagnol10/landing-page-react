@@ -1,7 +1,7 @@
 import { IconProps } from "../../types/IconProps";
 
 const CloseMenuIcon: React.FC<IconProps> = ({
-    color = "#EE6C4D",
+    color = "#1B755E",
     size = 24
 }) => (
     <svg

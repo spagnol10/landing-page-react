@@ -13,11 +13,11 @@ interface HeroSectionProps {
 export function Soluction({ title, description }: HeroSectionProps) {
   return (
     <section id='section'>
-      <div className='text'>
+      <div className='text content'>
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-      <div className='cards'>
+      <div className='even-columns' >
         <Card
           title="Mobile Solution"
           description="Customized solutions for mobile platforms."

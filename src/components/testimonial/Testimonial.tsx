@@ -14,7 +14,7 @@ export function Testimonial({ title, description }: TestimonialProps) {
         <p>{description}</p>
       </div>
 
-      <div className='card'>
+      <div className='card even-columns'>
         <Comentario
           image="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/01/2024-01-31T123000Z_1_LYNXMPEK0U0GO_RTROPTP_4_VODAFONE-IDEA-ELON-MUSK-e1706737419930.jpg?w=1220&h=674&crop=1&quality=85"
           rating={4}

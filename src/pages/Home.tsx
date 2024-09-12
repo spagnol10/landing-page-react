@@ -1,7 +1,6 @@
 import Header from "../components/header/Header"
 import HeroSection from "../components/hero/HeroSection"
 import { Soluction } from "../components/soluction/Soluction"
-import { Testimonial } from "../components/testimonial/Testimonial"
 
 const HomePage = () => {
   return (
@@ -9,18 +8,14 @@ const HomePage = () => {
       <Header />
       
       <HeroSection
-        title="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-        description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        title="Soluções Tecnológicas Sob Medida para Suas Necessidades"
+        description="Explorando o potencial da tecnologia através de projetos que resolvem problemas reais e criam valor para o seu negócio."
         primaryButtonText="Cadastre-se"
         secondaryButtonText="Veja mais" />
 
       <Soluction
-        title="Lorem Ipsum is simply"
-        description="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
-
-      <Testimonial
-        title="Lorem Ipsum is simply"
-        description="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+        title="Projetos Recentes"
+        description="Uma seleção de projetos que demonstram minha habilidade em desenvolvimento web e soluções empresariais inovadoras." />
 
         
     </>
