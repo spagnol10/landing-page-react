@@ -1,6 +1,6 @@
 import Header from "../components/header/Header"
 import HeroSection from "../components/hero/HeroSection"
-import { Soluction } from "../components/soluction/Soluction"
+import { Solution } from "../components/soluction/Solution"
 
 const HomePage = () => {
   return (
@@ -8,16 +8,14 @@ const HomePage = () => {
       <Header />
       
       <HeroSection
-        title="Soluções Tecnológicas Sob Medida para Suas Necessidades"
-        description="Explorando o potencial da tecnologia através de projetos que resolvem problemas reais e criam valor para o seu negócio."
-        primaryButtonText="Cadastre-se"
-        secondaryButtonText="Veja mais" />
+        title="Create and Customize Tech Solutions for Your Business Needs"
+        description="Exploring the potential of technology through projects that solve real problems and create value for your business."
+        primaryButtonText="Register"
+        secondaryButtonText="See More" />
 
-      <Soluction
-        title="Projetos Recentes"
-        description="Uma seleção de projetos que demonstram minha habilidade em desenvolvimento web e soluções empresariais inovadoras." />
-
-        
+      <Solution
+        title="Recent Projects"
+        description="A selection of projects showcasing my skills in web development and innovative business solutions" />
     </>
 
   )

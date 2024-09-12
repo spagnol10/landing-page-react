@@ -25,7 +25,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             <img src={HeroRectangleOne} alt="Retangulo dois tela inicial" />
 
             <Container className="content">
-                <p className="desktop-onlt">Olá</p>
+                <p className="desktop-onlt">Hello 👋</p>
                 <h1>{title}</h1>
                 <p>{description}</p>
                 <div className="flex gap-1">

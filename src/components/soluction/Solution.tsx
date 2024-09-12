@@ -10,7 +10,7 @@ interface HeroSectionProps {
   description: string;
 }
 
-export function Soluction({ title, description }: HeroSectionProps) {
+export function Solution({ title, description }: HeroSectionProps) {
   return (
     <section id='section'>
       <div className='text content'>

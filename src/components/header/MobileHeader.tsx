@@ -13,10 +13,10 @@ export default function MobileHeader({ setShowMobileMenu, showMobileMenu }: Mobi
             <Container className="flex">
                 <ul>
                     <MenuItem href="#" text="Home" />
-                    <MenuItem href="#solution" text="Soluções" />
-                    <MenuItem href="#testimonials" text="Depoimentos" />
-                    <MenuItem href="#pricing" text="Preços" />
-                    <MenuItem href="#contact" text="Contato" />
+                    <MenuItem href="#solution" text="Solution" />
+                    <MenuItem href="#testimonials" text="Depoiments" />
+                    <MenuItem href="#pricing" text="Price" />
+                    <MenuItem href="#contact" text="Contact" />
                     <MenuItem href="#contact" reverseColor={true} text="Login" />
                 </ul>
                 <span onClick={() => setShowMobileMenu(!showMobileMenu)} className="btn-wrapper">
