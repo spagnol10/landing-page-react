@@ -1,4 +1,4 @@
-#section {
+#solution {
   background: var(--bg-color);
   border-top: 0.125rem solid var(--light-gray);
   display: flex;
@@ -7,16 +7,19 @@
   align-items: center;
 }
 
-#section p {
+#solution p {
   font-weight: var(--fw-base);
   color: var(--second-text-color);
 }
 
-.cards {
+.even-columns {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .content p {
@@ -25,29 +28,28 @@
 }
 
 .text {
-  gap: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
-@media (width >=1280px) {
-  #section {
-      background: var(--bg-color);
-      border-top: none;
-  height: 100vh;
+@media (min-width: 1280px) {
+  #solution {
+    background: var(--bg-color);
+    border-top: none;
+    height: 100vh;
 
-      >span {
-          position: absolute;
-          top: 0;
-      }
+    > span {
+      position: absolute;
+      top: 0;
+    }
 
-      >img {
-          top: 0;
-          height: 82%;
-          padding-left: 55%;
-      }
+    > img {
+      top: 0;
+      height: 82%;
+      padding-left: 55%;
+    }
   }
 }

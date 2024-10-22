@@ -12,6 +12,7 @@ export default function Header() {
     return (
         <header className="container py-sm">
             <nav className="flex items-center justify-between">
+                
                 <a href="/">
                     <Logo theme="light" />
                 </a>

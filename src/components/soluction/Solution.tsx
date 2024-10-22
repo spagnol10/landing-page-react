@@ -12,7 +12,7 @@ interface HeroSectionProps {
 
 export function Solution({ title, description }: HeroSectionProps) {
   return (
-    <section id='section'>
+    <section id='solution'>
       <div className='text content'>
         <h2>{title}</h2>
         <p>{description}</p>
