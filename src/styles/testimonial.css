@@ -25,6 +25,7 @@ p {
 .carousel {
   display: flex;
   width: 80%;
+  overflow: hidden
 }
 
 .carousel:hover {

@@ -1,7 +1,10 @@
+import { Contato } from "../components/contact/Contato"
+import { Price } from "../components/price/Price"
+import { Solution } from "../components/soluction/Solution"
 import Header from "../components/header/Header"
 import HeroSection from "../components/hero/HeroSection"
-import { Solution } from "../components/soluction/Solution"
 import Testimonials from "../components/testimonial/Testimonial"
+import { Footer } from "../components/footer/Footer"
 
 const HomePage = () => {
   return (
@@ -20,6 +23,12 @@ const HomePage = () => {
 
 
       <Testimonials />
+
+      <Price />
+
+      <Contato />
+
+      <Footer />
     </>
 
   )
